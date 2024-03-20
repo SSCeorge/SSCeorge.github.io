@@ -1,0 +1,112 @@
+@media screen and (min-width: 768px){
+    .container {
+        padding: 4rem 6rem;
+    }
+
+    .nav-controls .control-btn {
+        margin: 1rem;
+    }
+
+    .header-content {
+        grid-template-columns: repeat(1, 1fr);
+        padding-bottom: 6rem;
+    }
+
+    .left-header {
+        padding-top: 2rem !important;
+        .image {
+            width: 60% !important;
+            height: 90% !important;
+            margin: 0 auto !important;
+        }
+    }
+
+    .right-header {
+        grid-row: 1;
+        padding: 0 !important;
+        width: 75%;
+        .name {
+            font-size: 2.5rem !important;
+            text-align: center;
+            padding-top: 1rem;
+        }
+    }
+
+    .poly1,
+    .poly3 {
+        display: block;
+    }
+
+    .poly3 {
+        width: 50% !important;
+        height: 50% !important;
+        bottom: 5vh;
+        right: 12vw;
+    }
+
+    .theme-btn,
+    .mag-btn {
+        width: 55px;
+        height: 55px;
+    }
+
+    .main-title {
+        h2 {
+            font-size: 3rem;
+            span {
+                font-size: 3rem;
+            }
+            .bg-text {
+                font-size: 4rem;
+            }
+        }
+    }
+
+    #about .main-title .bg-text {
+        padding-bottom: 6rem !important;
+    }
+
+    .about-ctn {
+        padding-top: 2rem;
+    }
+
+    .about-ctn .left-about {
+        padding-right: 0rem;
+    }
+
+    .about-ctn .right-about {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .about-stats .progress-bars {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .experience {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #portfolio .main-title .bg-text {
+        padding-bottom: 6rem !important;
+    }
+
+    #portfolio .main-title h2 {
+        padding-bottom: 3rem !important;
+    }
+
+    .portfolios {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .por-item-desc {
+        max-height: 16vh;
+    }
+
+    .contact-container .main-title h2 {
+        padding-bottom: 2rem;
+    }
+
+    .waves {
+        height: 25vh;
+    }
+}

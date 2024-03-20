@@ -1,0 +1,157 @@
+@media screen and (min-width: 1024px) {
+    .container {
+        padding: 6rem 10rem;
+    }
+
+    .nav-controls {
+        top: 50%;
+        left: 3%;
+        display: flex;
+        margin-left: 1rem;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transform: translateY(-50%);
+        width: 0%;
+        .control-btn {
+            margin: 0.5rem;
+        }
+    }
+
+    .poly2,
+    .elips {
+        display: block;
+    }
+
+    .poly3 {
+        width: 100% !important; 
+        height: 100% !important;
+        top: 0;
+        left: 50%;
+    }
+
+    .header-content {
+        grid-template-columns: repeat(2, 1fr);
+        padding-bottom: 0;
+        .left-header {
+            grid-row: 1;
+            padding-top: 0 !important;
+            align-items: center !important;
+        }    
+        .right-header {
+            width: 100%;
+            h1, p {
+                margin: 1rem 3rem;
+            }
+        }
+        .image {
+            height: 40% !important;
+            width: 60% !important;
+        }
+    }   
+
+    .main-title {
+        h2 {
+            .bg-text{
+                font-size: 5.5rem;
+                padding-bottom: 5.5rem;
+            }
+        }
+    }
+
+    .theme-btn, .mag-btn {
+        width: 65px;
+        height: 65px;
+    }
+
+    .mag-btn {
+        top: 20%;
+        left: auto;
+    }
+
+    .about-ctn {
+        padding-top: 0;
+    }
+
+    #about .main-title h2 {
+        padding-bottom: 6rem;
+    }
+
+    .progress-bars {
+        grid-template-columns: repeat(3, 1fr) !important;
+    }
+
+    .experience {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .portfolios {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .por-item-desc {
+        max-height: 15vh;
+    }
+
+    .contact-content {
+        flex-direction: column;
+        padding-top: 4rem;
+        .left-contact {
+            text-align: start;
+        }
+        .right-contact {
+            margin: 2rem 0 6rem 0;
+        }
+        
+    }
+
+    .contact-content .right-contact .primary {
+        flex-direction: column;
+    }
+
+    .contact-content .right-contact .primary :last-child {
+        margin-left: 0;
+        margin-top: 1.5rem;
+    }
+
+    .contact-item {
+        flex-direction: row;
+    }
+
+    .cont-icon {
+        align-items: center;
+    }
+
+    .submit-btn-ctn {
+        margin: 0;
+        height: 65px;
+    }
+
+    .send-btn {
+        align-self: center;
+        height: 35px;
+    }
+
+    .waves {
+        padding-bottom: 0;
+        height: 30vh;
+    }
+}
+
+@media screen and (min-width: 1250px) {
+    .container {
+        padding: 6rem 11rem;
+    }
+
+    .progress-bars {
+        grid-template-columns: repeat(4, 1fr) !important;
+    }
+
+    .portfolios {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .por-item-desc {
+        max-height: 20vh;
+    }
+}
