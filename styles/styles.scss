@@ -293,6 +293,7 @@ section {
                 filter: grayscale(100%);
                 &:hover{
                     filter: grayscale(0);
+                    box-shadow: var(--box-shadow);
                 }
             }
         }

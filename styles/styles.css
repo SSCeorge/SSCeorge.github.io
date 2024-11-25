@@ -301,6 +301,7 @@ section {
 }
 .header-content .left-header .image img:hover {
   filter: grayscale(0);
+  box-shadow: var(--box-shadow);
 }
 .header-content .poly3 {
   transition: all 0.4s ease-in-out;
